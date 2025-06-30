@@ -1,0 +1,52 @@
+Launching an EC2 Instance (Steps)
+Choose an AMI
+Example: Amazon Linux 2, Ubuntu, Microsoft Windows Server
+
+Choose an Instance Type
+
+Example: t2.micro (1 vCPU, 1 GiB RAM – Free Tier eligible)
+
+Configure Instance Details
+
+Number of instances
+
+IAM role
+
+Shutdown behavior
+
+User data (startup script)
+
+Add Storage
+
+Default: 8 GiB (general purpose SSD)
+
+Configure Security Group
+
+Allow SSH (port 22) or RDP (port 3389)
+
+Create/Select Key Pair
+
+.pem file used to connect via SSH
+
+Launch
+
+🔹 Connecting to EC2
+Linux (SSH):
+bash
+Copy
+Edit
+chmod 400 my-key.pem
+ssh -i "my-key.pem" ec2-user@<Public-IP>
+Windows (RDP):
+Use key pair to decrypt Administrator password
+
+Connect via Remote Desktop using IP and credentials
+
+🔹 EC2 Instance Types (Families)
+Family	Use Case
+t	General purpose (e.g. t3.micro)
+m	Balanced compute/memory (e.g. m5.large)
+c	Compute-optimized (e.g. c6g.large)
+r	Memory-optimized (e.g. r5.large)
+g	GPU workloads (e.g. g4dn.xlarge)
+h/i/d	Storage optimized
