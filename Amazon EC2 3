@@ -1,0 +1,66 @@
+🔹 Elastic Block Store (EBS)
+Attached to EC2 like a virtual disk
+
+Types:
+
+gp3 (General Purpose SSD – default)
+
+io2 (Provisioned IOPS SSD)
+
+sc1/st1 (Cold/Throughput HDD for low-cost storage)
+
+Snapshots: backup of EBS volumes to S3
+
+🔹 Security Groups
+Acts like a firewall
+
+Rules allow traffic only (no deny)
+
+Stateless → need to open inbound and outbound rules
+
+Example rule: Allow SSH from your IP → Port 22, Source: your.ip.address/32
+
+🔹 Monitoring & Logging
+Amazon CloudWatch monitors:
+
+CPU utilization
+
+Disk I/O
+
+Network traffic
+
+Can set alarms and auto-recovery actions
+
+🔹 Auto Scaling & Load Balancing
+Auto Scaling: Automatically adds/removes instances based on demand
+
+Elastic Load Balancer (ELB): Distributes traffic across multiple EC2 instances
+
+🔹 Pricing Models
+Model	Description
+On-Demand	Pay by the second. No commitment.
+Reserved	1- or 3-year commitment with savings.
+Spot Instances	Up to 90% discount, can be terminated anytime.
+Savings Plans	Flexible pricing model for consistent usage.
+
+🔹 Common Use Cases
+Web and mobile app hosting
+
+Batch processing and analytics
+
+Game server hosting
+
+Machine learning model training
+
+Development and testing environments
+
+🔹 Best Practices
+Use IAM roles instead of storing AWS credentials on the instance
+
+Restrict SSH/RDP access in security groups
+
+Use EC2 Auto Recovery for fault tolerance
+
+Regularly take EBS snapshots
+
+Enable CloudWatch alarms for resource usage
