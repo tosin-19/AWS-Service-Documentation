@@ -6,7 +6,7 @@
 |------|-------------|
 | Instance | A virtual server in EC2 used to run applications |
 | AMI (Amazon Machine Image) | A template containing the OS, application server, and applications |
-| Instance Type | |Defines the hardware (CPU, memory, storage) for the instance. E.g., t2.micro, m5.large |
+| Instance Type | Defines the hardware (CPU, memory, storage) for the instance. E.g., t2.micro, m5.large |
 | EBS (Elastic Block Store) | Persistent block storage volumes for EC2 |
 | Key Pair | Used for SSH access (public/private key) |
 | Security Group| Acts like a virtual firewall, controlling inbound/outbound traffic |
