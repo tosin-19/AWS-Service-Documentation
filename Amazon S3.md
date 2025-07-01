@@ -40,6 +40,7 @@ s3.upload_file('myfile.txt', 'my-bucket', 'myfile.txt')
 
 ## Access Control
 | Method | Description |
+| ------ | ----------- |
 | Bucket | Policies	Set rules on who can access bucket and what actions are allowed |
 | IAM Policies | Control user or role access to S3 |
 | ACL (Access Control List) | Fine-grained access for individual objects (older method) |
