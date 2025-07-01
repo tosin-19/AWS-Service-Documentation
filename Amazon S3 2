@@ -1,8 +1,0 @@
-Bucket Creation
-Open S3 Console
-Click "Create bucket"
-Configure: Bucket name (globally unique)
-Region (e.g., us-east-1)
-ACLs and public access settings
-Versioning, encryption, logging (optional)
-Click "Create bucket"
