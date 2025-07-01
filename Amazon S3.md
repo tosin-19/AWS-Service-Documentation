@@ -15,29 +15,6 @@ Big data and analytics
 | ACL/Policies | Access control settings to manage who can access a bucket or object |
 | S3 URL | The web address for accessing an object, e.g., https://bucket-name.s3.amazonaws.com/file.txt |
 
-Bucket Creation
-Open S3 Console
-Click "Create bucket"
-Configure: Bucket name (globally unique)
-Region (e.g., us-east-1)
-ACLs and public access settings
-Versioning, encryption, logging (optional)
-Click "Create bucket"
-Uploading Objects
-You can: Upload through Console
-Use AWS CLI:
-Bash	
-Copy
-Edit
-Aws S3 cp myfile.txt s3://my-bucket/
-Use Python (Boto3):
-Python
-Copy
-Edit
-Import boto3
-s3 = boto3.client('s3')
-s3.upload_file('myfile.txt', 'my-bucket', 'myfile.txt')
-
 ## Access Control
 | Method | Description |
 | ------ | ----------- |
