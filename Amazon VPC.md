@@ -97,18 +97,23 @@ Build multi-tier architectures
 
 ## CLI/SDK Commands
 Create a VPC (AWS CLI):
-bash
+
+Bash
 Copy
 Edit
 
 aws ec2 create-vpc --cidr-block 10.0.0.0/16
+
 Create a Subnet:
+
 bash
 Copy
 Edit
 
 aws ec2 create-subnet --vpc-id vpc-abc123 --cidr-block 10.0.1.0/24
+
 Attach Internet Gateway:
+
 bash
 Copy
 Edit
