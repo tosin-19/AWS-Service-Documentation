@@ -68,6 +68,7 @@ Monitor via CloudWatch logs & metrics.
 
 ## Event Sources (Triggers)
 | AWS Service | Use Case Example |
+| ----------- | ---------------- |
 | Amazon S3 |Run code on file upload |
 | Amazon DynamoDB | Streams	React to table changes |
 | Amazon Kinesis | Real-time stream processing |
