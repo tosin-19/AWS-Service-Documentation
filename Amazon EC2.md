@@ -1,3 +1,4 @@
+# Elastic Compute Cloud [EC2]
 Amazon EC2 (Elastic Compute Cloud) is a web service from AWS that provides resizable virtual servers, called instances, in the cloud. These servers allow you to run applications without owning physical hardware.
 
 🔹 Key Concepts
