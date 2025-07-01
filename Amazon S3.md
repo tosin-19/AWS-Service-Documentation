@@ -44,11 +44,11 @@ https://my-bucket.s3.us-east-1.amazonaws.com/images/logo.png
 | Glacier | Archival storage (retrieval in minutes to hours) |
 | Glacier Deep Archive | Lowest-cost, longest retrieval time (12+ hours) |
 
-Versioning
+## Versioning
 Keeps multiple versions of an object.
 Protects against accidental deletion or overwrite.
 Enable in bucket settings.
- Static Website Hosting
+Static Website Hosting
 You can host a static website from S3:
 Enable static website hosting in bucket settings
 Upload HTML/CSS/JS files
