@@ -82,8 +82,8 @@ Auto Scaling: Automatically adds/removes instances based on demand
 Elastic Load Balancer (ELB): Distributes traffic across multiple EC2 instances
 
 ## Pricing Models
-|---------|------|
 | Model | Description |
+| ----- | ------------|
 | On-Demand | Pay by the second.No commitment |
 | Reserved | 1- or 3-year commitment with savings |
 | Spot Instances | Up to 90% discount, can be terminated anytime |
